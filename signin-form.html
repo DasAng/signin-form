@@ -13,36 +13,37 @@
 <polymer-element name="signin-form" attributes="url">
     <template>
         <core-style ref="signin-form">
-            <style>
-                :host {
-                    background-color: white;
-                    display: inline-block;
-                    text-align: left;
-                    width:400px;
-                    height:350px;
-                }
-                .signin-field {
-                    border: 1px solid #ddd;
-                    margin: 30px 15px;
-                    height: 40px;
-                    border-radius:0.4em;
-                    background: lavenderblush;
-                }
-                .signin-field.focus {
-                    border: 1px solid #383251;
-                }
-                #signinButton {
-                    margin: 0 0 0 15px;
-                    width: 93%;
-                }
-                .center {
-                    margin: 10px auto 0 auto;
-                    width: 40px;
-                }
-            </style>
+        <style>
+            :host {
+                background-color: white;
+                display: inline-block;
+                text-align: left;
+                width:400px;
+                height:350px;
+            }
+            .signin-field {
+                border: 1px solid #ddd;
+                margin: 30px 15px;
+                height: 40px;
+                border-radius:0.4em;
+                background: lavenderblush;
+            }
+            .signin-field.focus {
+                border: 1px solid #383251;
+            }
+            #signinButton {
+                margin: 0 0 0 15px;
+                width: 93%;
+            }
+            .center {
+                margin: 10px auto 0 auto;
+                width: 40px;
+            }
+        </style>
         </core-style>
 
-        <core-header-panel>
+
+        <core-header-panel style="height:100%">
             <core-toolbar>
                 <div>Login</div>
             </core-toolbar>
